@@ -13,8 +13,10 @@ import {
 } from "./types";
 
 // Base url can be accessed  from .env file based on the environment. If not set, it will default to the production API base url.
-export const API_BASE =
-  process.env.NEXT_PUBLIC_API_BASE ?? "https://api.zenogrid.clipnexor.com/v0";
+// export const API_BASE =
+//   process.env.NEXT_PUBLIC_API_BASE ?? "https://api.zenogrid.clipnexor.com/v0";
+
+export const API_BASE = "https://api.zenogrid.clipnexor.com/v0";
 
 const TOKEN_KEY = "zenogrid.token";
 const EXPIRES_KEY = "zenogrid.expires_at";
